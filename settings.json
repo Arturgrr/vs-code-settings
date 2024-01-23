@@ -1,6 +1,5 @@
 {
-  //Icones, tema e fonte
-  "symbols.hidesExplorerArrows": false,
+  //Ícones, tema e fonte
   "workbench.iconTheme": "symbols",
   "workbench.colorTheme": "Omni",
   "editor.fontFamily": "JetBrains Mono",
@@ -11,6 +10,14 @@
     80,
     120
   ],
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.mts": "vite",
+    ".env.example": "gear"
+  },
   
   //Editor
   "editor.accessibilitySupport": "off",
@@ -22,6 +29,13 @@
   "editor.minimap.enabled": false,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/.DS_Store": false
+},
+"editor.tabSize": 2,
 
   //Plugins e linguagens
   "[prisma]": {
@@ -39,6 +53,14 @@
   "cSpell.language": "en,pt,pt_BR",
 
   "cSpell.userWords": [
-    "Omni"
+    "artur",
+    "Omni",
+    "rocketseat",
+    "unplugin"
   ],
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1"
+  },
+  "symbols.hidesExplorerArrows": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
 }
