@@ -1,15 +1,10 @@
 {
-  //Ícones, tema e fonte
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Min Dark",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "editor.lineHeight": 1.8,
-  "editor.rulers": [
-    80,
-    120
-  ],
   "symbols.files.associations": {
     "*.module.ts": "nest",
     "*.guard.ts": "typescript",
@@ -18,8 +13,21 @@
     "vitest.config.e2e.mts": "vite",
     ".env.example": "gear"
   },
-  
-  //Editor
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "frame": false
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "workbench.activityBar.location": "hidden",
   "editor.accessibilitySupport": "off",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
@@ -28,16 +36,15 @@
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "window.commandCenter": false,
+  "window.titleBarStyle": "native",
   "workbench.layoutControl.enabled": false,
   "files.exclude": {
     "**/.git": false,
     "**/.svn": false,
     "**/.hg": false,
     "**/.DS_Store": false
-},
-"editor.tabSize": 2,
-
-  //Plugins e linguagens
+  },
+  "editor.tabSize": 2,
   "[prisma]": {
     "editor.formatOnSave": true
   },
@@ -51,7 +58,6 @@
     "graphql"
   ],
   "cSpell.language": "en,pt,pt_BR",
-
   "cSpell.userWords": [
     "artur",
     "Omni",
@@ -63,4 +69,5 @@
   },
   "symbols.hidesExplorerArrows": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.statusBar.visible": false,
 }
