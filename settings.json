@@ -8,9 +8,10 @@
   "symbols.files.associations": {
     "*.module.ts": "nest",
     "*.guard.ts": "typescript",
+    "*.service.ts": "typescript",
     "*.spec.ts": "ts-test",
     "*.e2e-spec.ts": "ts-test",
-    "vitest.config.e2e.mts": "vite",
+    "vitest.config.e2e.ts": "vitest",
     ".env.example": "gear"
   },
   "apc.electron": {
@@ -33,7 +34,6 @@
   "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
   "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "window.commandCenter": false,
   "window.titleBarStyle": "native",
@@ -55,17 +55,32 @@
   "eslint.validate": [
     "javascript",
     "javascriptreact",
-    "graphql"
+    "graphql",
+    "typescript",
+    "typescriptreact"
   ],
   "cSpell.language": "en,pt,pt_BR",
   "cSpell.userWords": [
+    "ABCDEFGHIJKLMNOPQRSTUVXYWZ",
     "artur",
+    "cnpj",
+    "Demolay",
+    "divimax",
+    "exibicao",
+    "FIPE",
+    "fluig",
+    "Fluig",
     "Omni",
+    "qrcode",
     "rocketseat",
-    "unplugin"
+    "sufix",
+    "tsconfigpaths",
+    "unplugin",
+    "whatsapp"
   ],
   "terminal.integrated.env.osx": {
-    "CW_NEW_SESSION": "1"
+    "CW_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
   },
   "symbols.hidesExplorerArrows": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
