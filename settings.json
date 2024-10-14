@@ -11,7 +11,7 @@
     "*.service.ts": "typescript",
     "*.spec.ts": "ts-test",
     "*.e2e-spec.ts": "ts-test",
-    "vitest.config.e2e.ts": "vitest",
+    "vitest.config.e2e.mjs": "vitest",
     ".env.example": "gear"
   },
   "apc.electron": {
@@ -48,6 +48,7 @@
   "[prisma]": {
     "editor.formatOnSave": true
   },
+
   "typescript.suggest.autoImports": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
@@ -64,16 +65,23 @@
     "ABCDEFGHIJKLMNOPQRSTUVXYWZ",
     "artur",
     "cnpj",
+    "codigo",
     "Demolay",
+    "descricao",
     "divimax",
     "exibicao",
     "FIPE",
     "fluig",
     "Fluig",
+    "mercadopago",
+    "nextjs",
+    "numeros",
     "Omni",
+    "preco",
     "qrcode",
     "rocketseat",
     "sufix",
+    "tailwindcss",
     "tsconfigpaths",
     "unplugin",
     "whatsapp"
@@ -85,4 +93,31 @@
   "symbols.hidesExplorerArrows": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.statusBar.visible": false,
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
